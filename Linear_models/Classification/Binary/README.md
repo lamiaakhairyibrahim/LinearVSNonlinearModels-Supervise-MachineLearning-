@@ -6,7 +6,8 @@
 - [Logistic Regression](#logistic-regression)
 - [Linear SVM](#linear-svm)
 - [RidgeClassifier](#ridgeclassifier)
-
+- [SGDClassifier](#sgdclassifier)
+- [PassiveAggressiveClassifier](#passiveaggressiveclassifier)
 ## dataset
   - In this project, I used the Iris dataset, a classic dataset in machine learning.
     However, instead of using all three classes, I selected only the first two classes:
@@ -23,3 +24,5 @@
 ## Logistic Regression
 ## Linear SVM
 ## RidgeClassifier
+## SGDClassifier
+## PassiveAggressiveClassifier
