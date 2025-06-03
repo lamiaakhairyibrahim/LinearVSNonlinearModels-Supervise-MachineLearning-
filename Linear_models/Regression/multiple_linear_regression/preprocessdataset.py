@@ -46,13 +46,13 @@ class PrepData:
         visual(data1)
         # if you want to remove the outlier
         f = ['price','area','bedrooms','bathrooms','stories','parking']
-        for c in f :
-            Q1 = data1[c].quantile(0.25)
-            Q3 = data1[c].quantile(0.75)
-            IQR = Q3 - Q1
-            L = Q1 - (IQR*1.5)
-            U = Q3 + (IQR*1.5) 
-            data1 = data1[(data1[c] >= L) & (data1[c] <= U)]
+        #for c in f :
+        #    Q1 = data1[c].quantile(0.25)
+        #    Q3 = data1[c].quantile(0.75)
+        #    IQR = Q3 - Q1
+        #    L = Q1 - (IQR*1.5)
+        #    U = Q3 + (IQR*1.5) 
+        #    data1 = data1[(data1[c] >= L) & (data1[c] <= U)]
         #visual(data1)
         x = data1.drop(['price'] , axis=1)
         y = data1['price']

@@ -45,19 +45,21 @@
   - here the outliers related to the houses (flat, vela, ....), i want to detect all kinds of houses, so I don't remove the outlier
 
 ### Model
+  - from the visualization, the data set shows that the dataset is linear with the target in one format but others other binary, so I expect that the error will be not satisfied for me  as I want if I use linear regression models
   - I used the Linear Regression model but the evaluation was very bad
   ``` 
    Mean Squared Error: 0.5024
    R^2 Score: 0.6529
   ```
   - So I want to improve it , by :
-     - 1. use the improved models like :
-             -  Ridge 
-             - Lasso 
-             - ElasticNet 
-             - HuberRegressor 
-             - BayesianRidge 
-             - PassiveAggressiveRegressor 
-             - TheilSenRegressor
+    - use the improved models like :
+
+              -  Ridge 
+              - Lasso 
+              - ElasticNet 
+              - HuberRegressor 
+              - BayesianRidge 
+              - PassiveAggressiveRegressor 
+              - TheilSenRegressor
      
 
