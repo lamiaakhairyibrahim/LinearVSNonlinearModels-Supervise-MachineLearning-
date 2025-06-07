@@ -20,6 +20,8 @@
         - Linear SVM create linear decision boundaries
         - Perceptron
         - RidgeClassifier
+        - SGDClassifier
+        - PassiveAggressiveClassifier
     - while nonlinear models like 
         - K-Nearest Neighbors(KNN) 
         - SVM with RBF kernel can capture complex nonlinear
@@ -28,6 +30,7 @@
         - Gradient Boosting
         - Neural Networks 
          patterns in the data
+
   - ### Regression
 
 

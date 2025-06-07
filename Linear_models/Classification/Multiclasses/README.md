@@ -59,7 +59,7 @@ Which tree types can grow in more diverse environments? Are there certain tree t
 
 
 ### models
-- I predict the accuracy of linear classification models is between [50-65]% because the dataset was not linear
+- I predict the accuracy of linear classification models is between [50-75]% because the dataset was not linear
 - I used all linear classification models like :
   - LogisticRegression
   - LinearSVC

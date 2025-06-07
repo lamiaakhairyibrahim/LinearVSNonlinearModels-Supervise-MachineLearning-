@@ -54,12 +54,19 @@
   - So I want to improve it , by :
     - use the improved models like :
 
-              -  Ridge 
-              - Lasso 
-              - ElasticNet 
-              - HuberRegressor 
-              - BayesianRidge 
-              - PassiveAggressiveRegressor 
-              - TheilSenRegressor
+        -  Ridge 
+            - [you can read this article](https://www.geeksforgeeks.org/what-is-ridge-regression/)
+        - Lasso 
+            - [you can read this article](https://www.geeksforgeeks.org/what-is-lasso-regression/)
+        - ElasticNet 
+            - [you can read this article](https://www.geeksforgeeks.org/implementation-of-elastic-net-regression-from-scratch/)
+        - HuberRegressor 
+            - [you can read this article](https://medium.com/@thommaskevin/tinyml-huber-regression-315f30129ab3)
+        - BayesianRidge 
+            - [you can read this article](https://medium.com/data-science/how-to-build-a-bayesian-ridge-regression-model-with-full-hyperparameter-integration-f4ac2bdaf329)
+        - PassiveAggressiveRegressor 
+            - [you can read this article](https://amanxai.com/2021/07/04/passive-aggressive-regression-in-machine-learning/)
+        - TheilSenRegressor
+            - [you can read this article](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.TheilSenRegressor.html)
      
 

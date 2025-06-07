@@ -3,7 +3,7 @@ import pandas as pd
 
 class data_linear:
     def __init__(self):
-        self.data()
+        pass
     
     def data(self):
         iris = datasets.load_iris(as_frame= True)

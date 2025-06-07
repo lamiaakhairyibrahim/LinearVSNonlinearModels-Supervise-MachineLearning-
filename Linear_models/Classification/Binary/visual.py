@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from src.Linear_models.Classification.Binary.Iris_dataset import data_linear
 
 class visual:
     def __init__(self , x1 = None ,x2 = None , x3= None , x4 = None , y = None ):
@@ -12,8 +11,6 @@ class visual:
         
 
     def show(self):
-        
-
         plt.figure(figsize=(10, 5))  # Adjust figure size for better subplot display
         plt.subplot(1, 2, 1)
         plt.hist(self.y, bins=10)
