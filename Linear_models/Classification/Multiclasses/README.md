@@ -1,11 +1,23 @@
+
+
+
 # multiclasses 
-- [Multi-classification strategies](#multi-classification-strategies)
+# Forest Cover Type Dataset
 - [Dataset](#dataset)
-- [Logistic Regression](#logistic-regression)
-- [Linear SVM](#linear-svm)
-- [RidgeClassifier](#ridgeclassifier)
-- [SGDClassifier](#sgdclassifier)
-- [PassiveAggressiveClassifier](#passiveaggressiveclassifier)
+- [Multi-classification strategies](#multi-classification-strategies)
+- [models](#models)
+
+## Dataset
+  - This dataset contains tree observations from four areas of the Roosevelt National Forest in Colorado. All observations are cartographic variables (no remote sensing) from 30 meter x 30 meter sections of forest. There are over half a million measurements total!
+  - Can you build a model that predicts what types of trees grow in an area based on the surrounding characteristics? 
+What kinds of trees are most common in the Roosevelt National Forest?
+Which tree types can grow in more diverse environments? Are there certain tree types that are sensitive to an environmental factor, such as elevation or soil type?
+  - [dataset](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset/data)
+ - ## preprocessing dataset 
+     - The dataset does not contain a missing value
+     - The dataset does not contain a duplicate value
+     - After I saw the features are Gaussian distribution, I decided to use the Standard Scaler
+     - I use PCA to dimension reduction The number of components was selected based on preserving **95% of the variance** (or mention your threshold if different).
 
 ## Multi-classification strategies
   In this project, we apply and compare different strategies to handle multi-class classification problems using linear models. Here’s a brief explanation of each strategy used:
@@ -46,10 +58,13 @@
       - ⚠️ Misclassification at early levels affects final decision.
 
 
+### models
+- I predict the accuracy of linear classification models is between [50-65]% because the dataset was not linear
+- I used all linear classification models like :
+  - LogisticRegression
+  - LinearSVC
+  - SGDClassifier
+  - RidgeClassifier
+  - PassiveAggressiveClassifier
 
 
-## Logistic Regression
-## Linear SVM
-## RidgeClassifier
-## SGDClassifier
-## PassiveAggressiveClassifier
